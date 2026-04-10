@@ -1,8 +1,11 @@
 @import url("bootstrap-reboot.css");
 
 body {
-    background-color: black;
-    color: white;
+    background-image: url('fon.jpg');
+    background-repeat: repeat;
+    background-position: top left;
+    background-color: white;
+    color: black;
     font-size: 1.5rem;
     line-height: 2rem;
     margin: 0;
@@ -15,19 +18,50 @@ body {
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: transparent;
 }
 
 p {
     text-align: right;
+    color: #34495e;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
 }
 
 h1, h2 {
-    text-align: right;
-    font-family: sans-serif;
-    color: red;
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
 }
 
 em {
-    color: green;
+    color: #27ae60;
     font-style: italic;
+}
+
+strong {
+    font-family: 'Caveat', cursive;
+    color: #e67e22;
+    font-size: 1.8rem;
+}
+
+article {
+    border: 2px solid #3498db;
+    border-radius: 20px;
+    margin: 30px 20px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    border: 1px solid #bdc3c7;
+}
+
+.mjx-chtml, .MathJax {
+    color: rgb(0, 106, 255);
 }
